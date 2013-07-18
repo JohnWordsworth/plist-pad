@@ -11,3 +11,32 @@
 *.lai
 *.la
 *.a
+
+# Ignore User File
+*.pro.user
+
+# Generated MOC, resource and UI files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# .log files (usually created by QtTest - thanks to VestniK)
+*.log
+
+# Built windows .exe 
+*.exe
+*.dll
+
+# Debug and Release directories (created under Windows, not Linux)
+Debug/
+Release/
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+
+# Mac-specific things
+.DS_Store
+
+# Editors temporary files 
+*~
